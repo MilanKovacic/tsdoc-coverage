@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "bin": {
+    "tsdoc-coverage": "dist/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -12,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@microsoft/tsdoc": "^0.14.2",
+    "commander": "^11.0.0",
     "prettier": "^3.0.2",
     "ts-morph": "^19.0.0",
     "typescript": "^5.1.6"

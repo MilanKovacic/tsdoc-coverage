@@ -108,4 +108,4 @@ function countTopLevelFunctionsWithTSDoc() {
   console.table(data);
 }
 
-countTopLevelFunctionsWithTSDoc();
+export default countTopLevelFunctionsWithTSDoc;
